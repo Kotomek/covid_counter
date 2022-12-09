@@ -1,0 +1,71 @@
+body {
+
+    background-image: url("background.jpg");
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-size: cover;
+    text-align: center;
+
+}
+
+.container {
+
+    background: white;
+    border: 3px solid red;
+    border-radius: 50px;
+    max-width:600px;
+    width:80%;
+    margin:auto;
+    opacity: 30$
+
+}
+
+h1 {
+
+    margin: 30px; 
+    text-transform: uppercase;
+    
+}
+
+p {
+
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 30px;
+    margin-top: 10px; 
+
+}
+
+.buttons {
+    opacity:50%;
+}
+
+#increment-btn {
+
+    background-color: green;
+    margin-right: 15px; 
+    margin-bottom: 30px;
+    min-width: 150px;
+    font-size: 40px; 
+    opacity: 100%;
+
+}
+
+#decrement-btn {
+
+    background-color: red;
+    margin-left: 15px; 
+    margin-bottom: 30px;
+    min-width: 150px;
+    font-size: 40px; 
+
+}
+
+#clear-btn {
+
+    background-color: darkgrey;
+    margin-left: 15px; 
+    margin-bottom: 50px;
+    min-width: 150px;
+    font-size: 40px; 
+
+}
